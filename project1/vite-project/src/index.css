@@ -1,0 +1,42 @@
+body{
+  background-color:black;
+  height: 100vh;
+}
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: gray;
+  height: 450px;
+  width: 400px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #d7d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  
+ 
+}
+.card img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+.card button{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d7d3d3;
+  border-radius: 5px;
+  cursor: pointer;
+}
